@@ -15,7 +15,8 @@ h1{
 	text-align:center;
 }
 .hi{
-    margin: 10%;
+    margin-left:10%;
+    margin-right:10%;
     background: #ffffff70;
     backdrop-filter: blur(5px);
     padding: 2rem;
@@ -26,6 +27,7 @@ h1{
     backdrop-filter: blur(5px);
     padding: 2rem;
     border-radius: 30px;
+    margin:20px;
 }
 .ha{
     background: #00000099;
@@ -33,4 +35,14 @@ h1{
     padding: 2rem;
     border-radius: 30px;
 	margin:20px;
+}
+.he{
+    background: #ffffff60;
+    backdrop-filter: blur(7px);
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left:85px;
+    margin-right:85px;
+    margin-top:30px;
+    margin-bottom:30px;
 }
