@@ -5,6 +5,7 @@ body{
 	color:white;
 	font-family:"Palatino Linotype";
 	text-align:center;
+    margin:0;
 }
 .cent{
 	display:block;
@@ -45,4 +46,31 @@ h1{
     margin-right:85px;
     margin-top:30px;
     margin-bottom:30px;
+}
+header {
+    color:white;
+    position: fixed;
+    width: 100%;
+    background:#00465D99;
+	backdrop-filter:blur(7px);
+    top: 0;
+    transition: all 500ms ease;
+    z-index:999;
+    padding:20px;
+}
+header.scrolled {
+    border-radius: 10px;
+    background: #00465D30;
+    backdrop-filter: blur(4px);
+    border: 1px solid #00465D;
+    transition: all 500ms ease;
+    width: 92%;
+    margin: 0 3%;
+    top: 20px;
+    box-shadow: 8px 12px 10px -8px #00465D;
+    z-index:999;
+    padding:10px
+}
+.fill{
+	height:100px;
 }
