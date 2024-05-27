@@ -52,7 +52,7 @@ header {
     position: fixed;
     width: 100%;
     background:#00465D99;
-	backdrop-filter:blur(7px);
+	backdrop-filter:blur(74x);
     top: 0;
     transition: all 500ms ease;
     z-index:999;
@@ -60,8 +60,8 @@ header {
 }
 header.scrolled {
     border-radius: 10px;
-    background: #00465D30;
-    backdrop-filter: blur(4px);
+    background: #00465D70;
+    backdrop-filter: blur(7px);
     border: 1px solid #00465D;
     transition: all 500ms ease;
     width: 92%;
