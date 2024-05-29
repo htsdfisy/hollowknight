@@ -87,3 +87,13 @@ footer{
     border: 1px solid #053041;
     box-shadow: 0 -7px 10px 0px #00465D;
 }
+.foot{
+    background-color:#04383599;
+    height:100px;
+    backdrop-filter:blur(2px);
+    display:block;
+    transform:translateY(-22px);
+}
+.footle{
+    transform:translateY(24px);
+}
