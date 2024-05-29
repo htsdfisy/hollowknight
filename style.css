@@ -56,7 +56,8 @@ header {
     top: 0;
     transition: all 500ms ease;
     z-index:999;
-    padding:20px;
+    padding:15px;
+    box-shadow: 0px 12px 10px 0px #00465D;
 }
 header.scrolled {
     border-radius: 10px;
@@ -67,10 +68,20 @@ header.scrolled {
     width: 92%;
     margin: 0 4%;
     top: 20px;
-    box-shadow: 8px 12px 10px -8px #00465D;
+    box-shadow: 8px 14px 10px -6px #00465D;
     z-index:999;
     padding:10px
 }
 .fill{
 	height:100px;
+}
+footer{
+    color:white;
+    background-color:#04383599;
+    background-image:url("https://tenor.com/view/hollow-knight-gif-3353982018565780061");
+    background-position:center;
+    backdrop-filter:blur(9px);
+    width: 100%;
+    border: 1px solid #053041;
+    box-shadow: 0 -7px 10px 0px #00465D;
 }
