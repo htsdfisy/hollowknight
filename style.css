@@ -52,7 +52,7 @@ header {
     position: fixed;
     width: 100%;
     background:#00465D99;
-	backdrop-filter:blur(74x);
+    backdrop-filter:blur(7px);
     top: 0;
     transition: all 500ms ease;
     z-index:999;
