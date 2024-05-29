@@ -76,10 +76,12 @@ header.scrolled {
 	height:100px;
 }
 footer{
+    height:100px;
     color:white;
     background-color:#04383599;
     background-image:url("imagess/thing.gif");
-    background-position:center;
+    background-position-x:72%;
+    background-position-y:45%;
     backdrop-filter:blur(9px);
     width: 100%;
     border: 1px solid #053041;
